@@ -111,19 +111,21 @@
         padding: 5px;
         width: 100%;
     }
-    header h2
-    {
-        position: left;
-    }
     .lo
     {
         display: grid;
-        grid-template-columns: 400px 600px;
-        grid-column-gap: 100px;
+        grid-template-columns: 500px 420px 1fr;
+        grid-column-gap: 60px;
+    }
+    header a
+    {
+        text-decoration: none;
+        color: white;
+        font-size: 16px;
     }
     #logo
     {
-        height: 120px;
+        height: 100px;
         width: 100%;
     }
     #d1
@@ -206,21 +208,13 @@
         height: 3px;
         border: 0px;
     }
-    .color /* для подсветки того что мы написали в поисковой строке*/
+    .color
     {
         color: yellow;
     }
     .next
     {
         margin-left: 0px;
-    }
-    .next::after
-    {
-        content: "←";
-    }
-    .next::before
-    {
-        content: "→";
     }
 }  
 

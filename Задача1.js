@@ -7,7 +7,9 @@ window.onload = () =>{
     if(value != ''){
       list.forEach(elem => {
         if(elem.innerText.search(value) == 0){
+          document.getElementById('but').onclick = function(){
           elem.classList.add('color');
+        }
         }
       });
     }else{
