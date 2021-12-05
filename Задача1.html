@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Познание Беларуси">
+    <meta name="keywords" content="Беларусь, города, площадь, население">
+    <meta name="author" content="Даниил Соболевский">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ЗнайсвоюСтрану</title>
+    <link rel="stylesheet" href="Задача1.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link type="Image/x-icon" href="favicon.ico" rel="icon">
+    <script src="Задача1.js"></script>
+</head>
+<body>
+    <header>
+        <div class="lo">
+            <h1>Наш край</h1>
+            <img id="logo" src="gorod.jpg" alt="gorod logo">
+        </div>
+        <h2>Краткий экскурс по городам</h2>
+    </header>
+    <nav>
+        <a href="https://wiki.openstreetmap.org/wiki/RU:Belarus:%D0%93%D0%BE%D1%80%D0%BE%D0%B4%D0%B0_%D0%91%D0%B5%D0%BB%D0%B0%D1%80%D1%83%D1%81%D0%B8">Население</a>
+        <a href="https://ru.wikipedia.org/wiki/%D0%9A%D1%80%D1%83%D0%BF%D0%BD%D0%B5%D0%B9%D1%88%D0%B8%D0%B5_%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%D0%B0_%D0%91%D0%B5%D0%BB%D0%BE%D1%80%D1%83%D1%81%D1%81%D0%B8%D0%B8_%D0%BF%D0%BE_%D0%BF%D0%BB%D0%BE%D1%89%D0%B0%D0%B4%D0%B8_%D0%B8_%D1%87%D0%B8%D1%81%D0%BB%D0%B5%D0%BD%D0%BD%D0%BE%D1%81%D1%82%D0%B8_%D0%BD%D0%B0%D1%81%D0%B5%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F">Площадь</a>
+        <a href="https://ru.wikipedia.org/wiki/%D0%9A%D0%B0%D1%82%D0%B5%D0%B3%D0%BE%D1%80%D0%B8%D1%8F:%D0%93%D0%B5%D1%80%D0%B1%D1%8B_%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%D0%BE%D0%B2_%D0%91%D0%B5%D0%BB%D0%BE%D1%80%D1%83%D1%81%D1%81%D0%B8%D0%B8">Гербы</a>
+    </nav>
+    <main> 
+        <!-- поисковая строка              -->      
+        <form action="#">
+            <input id="d1" type="text" placeholder="Введите название города"><input id="but" type="submit" value="Найти">
+        </form>     
+        <!-- поисковая строка              -->        
+        <div class="con">
+            <div>
+                <img src="gorod1.png" alt="Минск"><br>
+                <a href="https://goo.gl/maps/YEZaYGhQAnNvciWDA"><i class="fas fa-map-marked-alt"></i>Показать на карте</a>
+            </div>
+            <div>
+                <!-- место где искать совпадения            -->  
+                <p class="p">Минск – столица Беларуси, научный, экономический, политический и культурный центр страны.<span class="tx">Крупнейший транспортный узел, политический, экономический, культурный и научный центр страны. Является ядром Минской агломерации. Десятый по численности населения (без учёта пригородов) город в Европе, пятый — после Москвы, Санкт-Петербурга, Киева, Ташкента на территории бывшего СССР. Город расположен недалеко от географического центра страны и стоит на реке Свислочи. Площадь составляет 348,84 км²[⇨], население — 2 009 786 человек без учёта пригородов. Город-герой (1974).</span></p>
+                <!-- место где искать совпадения            -->  
+                <a class="next" href="https://ru.wikipedia.org/wiki/%D0%9C%D0%B8%D0%BD%D1%81%D0%BA">Узнать дальше</a>
+            </div>
+        </div>
+        <hr>
+        <div class="con">
+            <div>
+                <img src="gorod2.png" alt="Барановичи"><br>
+                <a href="https://goo.gl/maps/rmDBkcbP5GmmEoCP6"><i class="fas fa-map-marked-alt"></i>Показать на карте</a>
+            </div>
+            <div>
+                <p class="p">Барановичи – второй по величине город Брестской области, соединяющей областной центр Брест и Минск.<span class="tx">Расположен на Барановичской равнине в междуречье Щары и её притока Мышанки. Барановичи находятся практически на прямой, соединяющей областной центр Брест (206 км) и Минск (149 км). Ближайшие города: Ляховичи (17 км), Слоним (42 км), Несвиж (51 км), Новогрудок (52 км), Ганцевичи (72 км). Барановичи лежат на довольно равнинной местности, где перепад высот не превышает 20 м (от 180 до 200 м над уровнем моря). Высота города над уровнем моря составляет 193 м.</span></p>
+                <a class="next" href="https://ru.wikipedia.org/wiki/%D0%91%D0%B0%D1%80%D0%B0%D0%BD%D0%BE%D0%B2%D0%B8%D1%87%D0%B8">Узнать дальше</a>
+            </div>   
+        </div>
+        <hr>
+        <div class="con">
+            <div> 
+                <img src="gorod3.png" alt="Орша"><br>
+                <a href="https://goo.gl/maps/QQod8tkcLYm3KJL37"><i class="fas fa-map-marked-alt"></i>Показать на карте</a>
+            </div>
+            <div>
+                <p class="p">Орша - Крупный железнодорожный и автомобильный узел Белоруссии и транспортной артерии Европа - Россия - Украина.<span class="tx">Название города Орша произошло от названия реки Оршицы, на которой город расположен. М. Фасмер считал название Оршица славянским и связывал с названием реки Рось и со словом русло. В. И. Абаев топоним Орша (Ръша) сопоставлял с др.-инд. ṛ́kṣa-, авест. arša-, осет. ars — «медведь». Согласно В. Н. Топорову и О. Н. Трубачеву, название реки Оршица имеет балтское происхождение.</span></p> 
+                <a class="next" href="https://ru.wikipedia.org/wiki/%D0%9E%D1%80%D1%88%D0%B0">Узнать дальше</a>
+            </div>     
+        </div>
+        <hr>
+        <div class="con">
+            <div>    
+                <img src="gorod4.png" alt="Пинск"><br>
+                <a href="https://goo.gl/maps/YEZaYGhQAnNvciWDA"><i class="fas fa-map-marked-alt"></i>Показать на карте</a>
+            </div>
+            <div>
+                <p class="p">Пинск - Крупное религиозное ядро страны - центр католической и православной епархий.<span class="tx">Название дано по расположению на реке Пине, левом притоке Припяти; гидроним от основы пин — остановка, пристань, водоворот на реке, запруда. По другой версии название реки связано с древнеиндийским pinas — жирный, толстый, плотный. Согласно ещё одной версии, гидроним Пина имеет иллирийское происхождение и означает «болото, топь, тина, грязь, ил».</span></p>
+                <a class="next" href="https://ru.wikipedia.org/wiki/%D0%9F%D0%B8%D0%BD%D1%81%D0%BA">Узнать дальше</a>
+            </div>
+        </div>
+        <hr> 
+    </main>
+</body>
+</html>    
