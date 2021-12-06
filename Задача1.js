@@ -9,7 +9,7 @@ window.onload = () =>{
         if(elem.innerText.search(value) == 0){
           document.getElementById('but').onclick = function(){
           elem.classList.add('color');
-        }
+          }
         }
       });
     }else{
@@ -18,4 +18,7 @@ window.onload = () =>{
       });
     }
   };
+  document.getElementById('up').onclick = function(){
+    window.scrollTo(pageXOffset, 0);
+  }
 }

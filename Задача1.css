@@ -3,19 +3,8 @@
     header
     {
         text-align: center;
-        margin-top: 0px;
-        background: #888777;
-        height: 190px;
-        padding: 5px;
-    }
-    header h2
-    {
-        margin-bottom: 20px;
-    }
-    .lo
-    {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
+        background: #C2DDE8;
+        height: 300px;
     }
     #logo
     {
@@ -24,11 +13,12 @@
     }
     #d1
     {
+        text-align: center;
         width: 67%;
         height: 21px;
         border-radius: 6px;
-        border-color: #AEA89B;
-        background: #AEA89B;
+        border-color: #afc6cf;
+        background:  #afc6cf;
         margin-top: 10px;
         margin-bottom: 10px;
         max-width: 300px;
@@ -46,10 +36,9 @@
     {
         display: grid;
         grid-template-columns: 0.5fr 0.5fr 0.5fr;
-        background: #AEA89B;
+        background: #afc6cf;
         text-align: center;
         font-size: 18px;
-        margin-top: 0px;
     }
     nav a
     {
@@ -84,13 +73,14 @@
         border-radius: 5px;
         border: 1px;
         height: 27px;
-        background: #AEA89B;
+        background: #afc6cf;
     }
     hr
     {
         background: #AEA89B;
     }
-    .color /* для подсветки того что мы написали в поисковой строке*/
+
+    .color
     {
         color: yellow;
     }
@@ -105,28 +95,22 @@
     header
     {
         text-align: center;
-        margin-top: 0px;
-        background: #888777;
-        height: 170px;
-        padding: 5px;
-    }
-    .lo
-    {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
+        background: #C2DDE8;
+        height: 280px;
     }
     #logo
     {
-        height: 120px;
-        width: 100%;
+        height: 180px;
+        width: 60%;
     }
     #d1
     {
+        text-align: center;
         width: 67%;
         height: 21px;
         border-radius: 6px;
-        border-color: #AEA89B;
-        background: #AEA89B;
+        border-color:  #afc6cf;
+        background:  #afc6cf;
         margin-top: 10px;
         margin-bottom: 10px;
         max-width: 300px;
@@ -144,7 +128,7 @@
     {
         display: grid;
         grid-template-columns: 0.5fr 0.5fr 0.5fr;
-        background: #AEA89B;
+        background: #afc6cf;
         text-align: center;
         font-size: 18px;
         margin-top: 0px;
@@ -182,13 +166,13 @@
         border-radius: 5px;
         border: 1px;
         height: 27px;
-        background: #AEA89B;
+        background: #afc6cf;
     }
     hr
     {
         background: #AEA89B;
     }
-    .color /* для подсветки того что мы написали в поисковой строке*/
+    .color
     {
         color: yellow;
     }
@@ -204,30 +188,22 @@
     {
         text-align: center;
         margin-top: 0px;
-        background: #888777;
-        height: 170px;
-        padding: 5px;
-    }
-    .lo
-    {
-        margin-top: 10px;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-column-gap: 240px;
+        background: #C2DDE8;
+        height: 360px;
     }
     #logo
     {
-        margin-left: 100px;
-        height: 100px;
-        width: 70%;
+        height: 300px;
+        width: 50%;
     }
     #d1
     {
+        text-align: center;
         min-width: 50%;
         height: 21px;
         border-radius: 6px;
-        border-color: #AEA89B;
-        background: #AEA89B;
+        border-color:  #afc6cf;
+        background:  #afc6cf;
         margin-top: 10px;
         margin-bottom: 10px;
         max-width: 300px;
@@ -250,7 +226,7 @@
     {
         display: grid;
         grid-template-columns: 0.5fr 0.5fr 0.5fr;
-        background: #AEA89B;
+        background: #afc6cf;
         text-align: center;
         font-size: 18px;
         margin-top: 0px;
@@ -287,6 +263,7 @@
         width:300px;
         margin-top: 15px;
         margin-left: 80px;
+        height: 200px;
     }
     #but
     {
@@ -294,21 +271,26 @@
         border-radius: 5px;
         border: 1px;
         height: 27px;
-        background: #AEA89B;
+        background: #afc6cf ;
     }
     hr
     {
-        background: black;
+        background: #AEA89B;
         height: 3px;
         border: 0px;
+    }
+    #up
+    {
+        text-align: center;
+        width: 100%;
+        border-radius: 40px;
+        border: 0px solid rgba(132, 152, 175, 0.89);
+        background-color: rgba(132, 152, 175, 0.89); 
+        height: 40px;
     }
     .color
     {
         color: yellow;
-    }
-    .next
-    {
-        margin-left: 0px;
     }
 }  
 
